@@ -1,39 +1,33 @@
-🌦️ Weather Forecasting Web Application
+# 🌦️ Weather Forecasting Web Application
 
-A modern weather forecasting web application that provides real-time weather data based on user-searched locations. The application consumes a third-party weather REST API to fetch live weather information and displays it through a clean, responsive user interface.
+A weather forecasting web application that provides real-time weather information based on user-searched locations. The application consumes a third-party weather REST API to fetch live weather data and displays it through a clean and responsive user interface.
 
-🚀 Features
+---
 
-Search weather by city name
+## 🚀 Features
 
-Real-time temperature and weather conditions
+- Search weather by city name  
+- Real-time temperature and weather conditions  
+- Displays humidity and wind speed  
+- Dynamic UI updates based on API response  
+- Responsive design for mobile and desktop  
 
-Displays humidity, wind speed, and weather status
+---
 
-Responsive UI for mobile and desktop devices
+## 🧠 Tech Stack
 
-Dynamic UI updates based on API responses
+- Frontend: React.js, JavaScript  
+- Styling: CSS / UI component library  
+- API: Third-party Weather REST API  
+- Tools: Node.js, npm  
 
-🧠 Tech Stack
+---
 
-Frontend: React.js, JavaScript
+## ⚙️ How It Works
 
-Styling: CSS / UI component library
+- User enters a city name  
+- Application sends an asynchronous request to the weather API  
+- API returns real-time weather data  
+- UI updates dynamically using state management  
 
-API: Third-party Weather REST API (OpenWeather)
 
-Tools: Node.js, npm
-
-⚙️ How It Works (Developer Perspective)
-
-User enters a city name
-
-Application sends an asynchronous request to the weather API
-
-API returns real-time weather data
-
-React updates the UI dynamically using state management
-
-Data is rendered in a structured and readable format
-
-This project focuses on API integration, asynchronous data handling, and component-based UI architecture.
